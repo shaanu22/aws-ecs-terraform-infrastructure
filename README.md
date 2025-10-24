@@ -7,7 +7,6 @@ A production-ready, scalable infrastructure setup on AWS that deploys a containe
 ## 🏗️ Architecture Overview
 
 This project implements the following AWS architecture:
-
 ```
 Internet
     ↓
@@ -357,4 +356,4 @@ This project is provided as-is for educational and demonstration purposes.
 
 ## 👤 Author
 
-[Samuel Taiwo]
+Samuel Taiwo
