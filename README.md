@@ -7,13 +7,17 @@ A production-ready, scalable infrastructure setup on AWS that deploys a containe
 ## 🏗️ Architecture Overview
 
 This project implements the following AWS architecture:
+
+![AWS Architecture Diagram](docs/architecture.png)
+
+**Traffic Flow:**
 ```
 Internet
-    ↓
+   ↓
 Application Load Balancer (Public Subnets)
-    ↓
+   ↓
 ECS Fargate Tasks (Private Subnets)
-    ↓
+   ↓
 NAT Gateway → Internet
 ```
 
@@ -121,6 +125,8 @@ You should see the NGINX welcome page in HTML format!
 ```
 aws-ecs-terraform-infrastructure/
 ├── README.md
+├── docs/
+|   └── architecture.png
 ├── .gitignore
 ├── terraform/
 │   ├── backend-setup/        # Stage 1: Bootstrap remote state
