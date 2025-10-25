@@ -9,6 +9,8 @@ A production-ready, scalable infrastructure setup on AWS that deploys a containe
 This project implements the following AWS architecture:
 
 ![AWS Architecture Diagram](docs/architecture.png)
+```
+
 
 **Traffic Flow:**
 ```
