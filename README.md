@@ -11,7 +11,7 @@ This project implements the following AWS architecture:
 ![AWS Architecture Diagram](docs/architecture.png)
 
 **Traffic Flow:**
-```
+
 Internet
    ↓
 Application Load Balancer (Public Subnets)
