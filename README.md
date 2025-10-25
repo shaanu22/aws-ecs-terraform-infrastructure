@@ -8,10 +8,6 @@ A production-ready, scalable infrastructure setup on AWS that deploys a containe
 
 This project implements the following AWS architecture:
 
-<p align="center">
-  <img src="docs/architecture.png" alt="AWS Architecture Diagram" width="800">
-</p>
-
 ![AWS Architecture Diagram](docs/architecture.png)
 ```
 
